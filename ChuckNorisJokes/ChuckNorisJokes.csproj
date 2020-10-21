@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChuckNorrisAPI\ChuckNorrisAPI.csproj">
+      <Project>{a2588f4b-b0e3-4ada-9883-de456407897e}</Project>
+      <Name>ChuckNorrisAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
